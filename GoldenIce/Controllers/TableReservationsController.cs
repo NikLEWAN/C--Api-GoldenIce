@@ -13,25 +13,25 @@ namespace GoldenIce.Controllers
     [ApiController]
     public class TableReservationsController : ControllerBase
     {
-        private readonly IceCreamContext _context;
+        private readonly TableReservationContext _context;
 
-        public TableReservationsController(IceCreamContext context)
+        public TableReservationsController(TableReservationContext context)
         {
             _context = context;
         }
 
         // GET: api/TableReservations
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TableReservation>>> GetTableReservation()
+        public async Task<ActionResult<IEnumerable<TableReservation>>> GetTableReservations()
         {
-            return await _context.TableReservation.ToListAsync();
+            return await _context.TableReservations.ToListAsync();
         }
 
         // GET: api/TableReservations/5
         [HttpGet("{id}")]
         public async Task<ActionResult<TableReservation>> GetTableReservation(long id)
         {
-            var tableReservation = await _context.TableReservation.FindAsync(id);
+            var tableReservation = await _context.TableReservations.FindAsync(id);
 
             if (tableReservation == null)
             {
@@ -79,7 +79,7 @@ namespace GoldenIce.Controllers
         [HttpPost]
         public async Task<ActionResult<TableReservation>> PostTableReservation(TableReservation tableReservation)
         {
-            _context.TableReservation.Add(tableReservation);
+            _context.TableReservations.Add(tableReservation);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetTableReservation", new { id = tableReservation.Id }, tableReservation);
@@ -89,13 +89,13 @@ namespace GoldenIce.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<TableReservation>> DeleteTableReservation(long id)
         {
-            var tableReservation = await _context.TableReservation.FindAsync(id);
+            var tableReservation = await _context.TableReservations.FindAsync(id);
             if (tableReservation == null)
             {
                 return NotFound();
             }
 
-            _context.TableReservation.Remove(tableReservation);
+            _context.TableReservations.Remove(tableReservation);
             await _context.SaveChangesAsync();
 
             return tableReservation;
@@ -103,7 +103,7 @@ namespace GoldenIce.Controllers
 
         private bool TableReservationExists(long id)
         {
-            return _context.TableReservation.Any(e => e.Id == id);
+            return _context.TableReservations.Any(e => e.Id == id);
         }
     }
 }
