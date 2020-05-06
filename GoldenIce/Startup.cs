@@ -29,6 +29,10 @@ namespace GoldenIce
         {
             services.AddDbContext<IceCreamContext>(opt =>
                opt.UseInMemoryDatabase("IceCreams"));
+
+            services.AddDbContext<TableReservationContext>(opt =>
+               opt.UseInMemoryDatabase("TableReservation"));
+
             services.AddControllers();
         }
 
