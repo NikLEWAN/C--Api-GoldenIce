@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bendover\\Desktop\\skole\\programmering\\ApiTest\\GoldenIce\\GoldenIce\\GoldenIce.csproj": {}
+    "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bendover\\Desktop\\skole\\programmering\\ApiTest\\GoldenIce\\GoldenIce\\GoldenIce.csproj": {
+    "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bendover\\Desktop\\skole\\programmering\\ApiTest\\GoldenIce\\GoldenIce\\GoldenIce.csproj",
+        "projectUniqueName": "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj",
         "projectName": "GoldenIce",
-        "projectPath": "C:\\Users\\Bendover\\Desktop\\skole\\programmering\\ApiTest\\GoldenIce\\GoldenIce\\GoldenIce.csproj",
-        "packagesPath": "C:\\Users\\Bendover\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bendover\\Desktop\\skole\\programmering\\ApiTest\\GoldenIce\\GoldenIce\\obj\\",
+        "projectPath": "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bendover\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
