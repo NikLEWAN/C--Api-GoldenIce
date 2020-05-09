@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj": {}
+    "C:\\Users\\xnikm\\Desktop\\3sem\\programmering\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj": {}
   },
   "projects": {
-    "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj": {
+    "C:\\Users\\xnikm\\Desktop\\3sem\\programmering\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj",
+        "projectUniqueName": "C:\\Users\\xnikm\\Desktop\\3sem\\programmering\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj",
         "projectName": "GoldenIce",
-        "projectPath": "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\programming\\skole\\C--Api-GoldenIce\\GoldenIce\\obj\\",
+        "projectPath": "C:\\Users\\xnikm\\Desktop\\3sem\\programmering\\C--Api-GoldenIce\\GoldenIce\\GoldenIce.csproj",
+        "packagesPath": "C:\\Users\\xnikm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xnikm\\Desktop\\3sem\\programmering\\C--Api-GoldenIce\\GoldenIce\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xnikm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
