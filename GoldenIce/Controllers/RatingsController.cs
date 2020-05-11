@@ -11,8 +11,10 @@ namespace GoldenIce.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class RatingsController : ControllerBase
     {
+
         private readonly RatingContext _context;
 
         public RatingsController(RatingContext context)
