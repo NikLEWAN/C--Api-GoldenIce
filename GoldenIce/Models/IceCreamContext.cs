@@ -9,7 +9,6 @@ namespace GoldenIce.Models
             : base(options)
         {
         }
-        //
         public DbSet<IceCream> IceCreams { get; set; }
 
     }
