@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using GoldenIce.Models;
 
 namespace GoldenIce.Models
 {
@@ -8,7 +9,8 @@ namespace GoldenIce.Models
             : base(options)
         {
         }
-
+        //
         public DbSet<IceCream> IceCreams { get; set; }
+
     }
 }

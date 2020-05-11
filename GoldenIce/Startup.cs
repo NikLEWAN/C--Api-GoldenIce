@@ -25,10 +25,21 @@ namespace GoldenIce
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        //
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<IceCreamContext>(opt =>
-               opt.UseInMemoryDatabase("IceCreams"));
+                opt.UseInMemoryDatabase("IceCreams"));
+
+            services.AddDbContext<IceCreamOrderContext>(opt =>
+                opt.UseInMemoryDatabase("IceCreamOrders"));
+
+            services.AddDbContext<RatingContext>(opt =>
+                opt.UseInMemoryDatabase("Ratings"));
+
+            services.AddDbContext<TableReservationContext>(opt =>
+               opt.UseInMemoryDatabase("TableReservation"));
+
             services.AddControllers();
         }
 

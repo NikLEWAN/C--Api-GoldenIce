@@ -13,5 +13,6 @@ namespace GoldenIce.Models
             public string imgUrl { get; set; }
             public decimal Price { get; set; }
             public string Size { get; set; }
+            public int Quantity { get; set; }
     }
 }
