@@ -31,6 +31,9 @@ namespace GoldenIce
             services.AddDbContext<IceCreamContext>(opt =>
                 opt.UseInMemoryDatabase("IceCreams"));
 
+            services.AddDbContext<WeatherContext>(opt =>
+                opt.UseInMemoryDatabase("Weathers"));
+
             services.AddDbContext<IceCreamOrderContext>(opt =>
                 opt.UseInMemoryDatabase("IceCreamOrders"));
 
